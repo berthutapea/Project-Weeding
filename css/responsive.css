@@ -1,0 +1,321 @@
+/* only small desktops */
+/* tablets */
+@media (min-width: 992px) and (max-width: 1190px) {
+	.countdown {
+		height: 285px;
+	}
+
+	.top-header .navbar {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background-color: #353535d8;
+	}
+
+	.top-header .navbar .navbar-collapse ul {
+		display: flex;
+		flex-direction: row;
+		margin: 0;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.top-header .navbar .navbar-collapse ul li {
+		display: flex;
+	}
+
+	.top-header .navbar .navbar-collapse ul li a {
+		padding: 5px 15px;
+
+	}
+
+	.top-header .navbar .navbar-collapse ul li a i {
+		margin-right: 0;
+	}
+
+	.lbox-details h2 {
+		font-size: 26px;
+	}
+}
+
+/* only small tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+	.top-header .navbar {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background-color: #353535d8;
+	}
+
+	.top-header .navbar .navbar-collapse ul {
+		display: flex;
+		flex-direction: row;
+		margin: 0;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.top-header .navbar .navbar-collapse ul li {
+		display: flex;
+
+	}
+
+	.top-header .navbar .navbar-collapse ul li a {
+		padding: 10px 30px;
+	}
+
+	.top-header .navbar .navbar-collapse ul li a i {
+		margin-right: 0;
+		padding: 0;
+	}
+
+	.about-img {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
+	.gallery-box ul li {
+		width: 33.33%;
+	}
+
+	.top-header {
+		position: relative;
+	}
+
+
+	.lbox-details {
+		display: block;
+		width: 100%;
+	}
+
+	.rslides img {
+		display: block;
+		height: 100vh;
+		float: none;
+		width: 100vw;
+		border: 0;
+		object-fit: cover;
+		object-position: center center;
+	}
+
+	.countdown #timer div#days,
+	.countdown #timer div#hours,
+	.countdown #timer div#minutes,
+	.countdown #timer div#seconds {
+		position: inherit;
+		margin: 12px 0px;
+	}
+
+	.lbox-details::before {
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.countdown {
+		height: 188px;
+		border-radius: 0px;
+	}
+
+	.countdown #timer div {
+		width: 23%;
+		font-size: 24px;
+	}
+
+	.timeline {
+		position: relative;
+	}
+
+	.timeline ul li>div {
+		position: relative;
+		width: 300px;
+	}
+
+	.timeline ul li {
+		margin: 0 auto;
+	}
+
+	.timeline ul li:nth-child(even)>div {
+		left: -340px;
+	}
+
+}
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+
+	.open-undangan p {
+		font-size: 13px;
+		padding-top: 230px;
+		text-align: center;
+		justify-content: center;
+		margin: 0 10px;
+		font-size: bold;
+		height: auto;
+	}
+
+	.buka-undangan {
+		width: 200px;
+		padding: 8px;
+		margin-top: 40px;
+		border: none;
+		border-radius: 20px;
+		font-size: 14px;
+		cursor: pointer;
+		transition: background-color 0.2s;
+	}
+
+	.title-box-buka h2 {
+		font-size: 60px;
+	}
+
+	.top-header .navbar {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background-color: #353535d8;
+	}
+
+	.top-header .navbar .navbar-collapse ul {
+		display: flex;
+		flex-direction: row;
+		margin: 0;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.home-slider {
+		position: relative;
+		height: 100%;
+	}
+
+	.top-header .navbar .navbar-collapse ul li {
+		display: flex;
+
+	}
+
+	.top-header .navbar .navbar-collapse ul li a {
+		padding: 5px 15px;
+	}
+
+	.top-header .navbar .navbar-collapse ul li a i {
+		margin-right: 0;
+		padding: 0;
+	}
+
+	.lbox-details h1 {
+		font-size: 50px;
+		padding: 50px;
+	}
+
+	.lbox-details h2 {
+		font-size: 25px;
+		padding: 50px;
+	}
+
+	.lbox-details p strong {
+		font-size: 20px;
+	}
+
+	.lbox-details a.btn {
+		display: none;
+	}
+
+	.title-box h2 {
+		font-size: 38px;
+	}
+
+	.about-main-info h2 {
+		font-size: 24px;
+	}
+
+	.about-img {
+		margin-bottom: 30px;
+	}
+
+	.gallery-box ul li {
+		width: 50%;
+	}
+
+	.top-header {
+		position: relative;
+	}
+
+	.lbox-details {
+		display: block;
+		width: 100%;
+	}
+
+	.rslides img {
+		display: block;
+		height: 100vh;
+		float: none;
+		width: 100vw;
+		border: 0;
+		object-fit: cover;
+		object-position: center center;
+	}
+
+
+	.countdown #timer div#days,
+	.countdown #timer div#hours,
+	.countdown #timer div#minutes,
+	.countdown #timer div#seconds {
+		position: inherit;
+		margin: 12px 0px;
+	}
+
+	.lbox-details::before {
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.countdown {
+		height: 188px;
+		border-radius: 0px;
+	}
+
+	.countdown #timer div {
+		width: 23%;
+		font-size: 24px;
+	}
+
+	.about-m {
+		margin-bottom: 30px;
+	}
+
+	.timeline ul li {
+		list-style-type: none;
+		position: relative;
+		width: 6px;
+		height: 55vh;
+		background: gray;
+	}
+
+	.timeline ul li>div {
+		width: 50px;
+		border-radius: 10px;
+	}
+
+	.timeline ul li:nth-child(even)>div {
+		left: -289px;
+	}
+
+
+	.timeline ul li {
+		margin-left: 10px;
+	}
+
+	.timeline ul li>div {
+		width: calc(100vw - 90px);
+	}
+
+	.timeline ul li:nth-child(even)>div {
+		left: 45px;
+	}
+
+	.timeline ul li:nth-child(even)>div::before {
+		left: -15px;
+		border-width: 8px 16px 8px 0;
+		border-color: transparent #D6D6D6 transparent transparent;
+	}
+
+}
