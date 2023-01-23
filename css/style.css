@@ -322,7 +322,7 @@ button:focus {
 .modal-buka {
 	/* background-image: url("/images/buka.jpg"); */
 	/* position: absolute; */
-	object-fit: cover;
+	/* object-fit: cover; */
 	height: 100%;
 	width: 100%;
 	background-position: center;
