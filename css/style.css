@@ -320,8 +320,8 @@ button:focus {
 }
 
 .modal-buka {
-	background: url(/images/ptn-bg.jpg);
-	position:relative;
+	background-image: url("/images/buka.jpg");
+	/* position: relative; */
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
